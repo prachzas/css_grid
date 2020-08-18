@@ -1,0 +1,24 @@
+ .container{
+  height: 100vh;
+  display: grid;
+  grid-template-areas: "header"
+                       "content"
+                       "mylist"
+                       "footer";
+  grid-template-rows: 50px auto auto 40px;
+  grid-template-columns: auto;
+}
+
+.header{
+  grid-area: header;
+}
+.mylist{
+  grid-area: mylist;
+}
+.content{
+  grid-area: content;
+}
+.footer{
+  grid-area: footer;
+} 
+

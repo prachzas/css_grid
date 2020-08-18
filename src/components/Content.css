@@ -1,0 +1,15 @@
+.body, html{
+    height: 100%; 
+    margin: 0;
+}
+.content{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/johnwick.jpg); 
+    background-position: center;
+    background-size: cover;
+}
+.content .message{
+    color: whitesmoke;
+    padding-left: 20px;
+    padding-top: 200px;
+    position: relative;
+} 
